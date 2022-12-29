@@ -9,4 +9,4 @@ def main(a):
     s=(a%2==0)
     # Write your code here
     return s
-print(main(5)) 
+#print(main(5)) 

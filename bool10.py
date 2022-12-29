@@ -12,4 +12,4 @@ def main(a):
     d=((s-int(s))==0)
     # Write your code here
     return d
-print(main(121)) 
+#print(main(121)) 

@@ -7,7 +7,8 @@ def main(a,b):
     Returns:
         bool
     """
+    
     s=(a==b)
     # Write your code here
     return s
-print(main(1,1))
+#print(main(1,1))

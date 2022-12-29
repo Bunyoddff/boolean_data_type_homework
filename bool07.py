@@ -10,4 +10,4 @@ def main(a,b):
     s=(a!=b)
     # Write your code here
     return s
-print(main(5,5)) 
+#print(main(5,5)) 

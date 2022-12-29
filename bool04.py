@@ -9,4 +9,4 @@ def main(a):
     s=(a<0)
     # Write your code here
     return s
-print(main(8)) 
+#print(main(8)) 
