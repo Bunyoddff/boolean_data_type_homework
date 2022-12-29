@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool
     """
-    s=(a>0 and a<=9)
+    s=(a>=1 and a<=9 and a*1.0==int(a))
     # Write your code here
     return s
-#print(main(7)) 
+print(main(7)) 
