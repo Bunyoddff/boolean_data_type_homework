@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool
     """
-    s=(a>0  and a>=0 and a*1.0==int(a))
+    s=(a>0  or a>=0 and a*1.0==int(a))
     # Write your code here
     return s
-print(main(1.4)) 
+print(main(-1)) 
