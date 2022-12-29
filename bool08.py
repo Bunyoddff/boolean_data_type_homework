@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool
     """
-    s=(a>0 or a==0)
+    s=(a>0  and a==0 and a==int(a))
     # Write your code here
     return s
 print(main(-1)) 
